@@ -100,7 +100,7 @@ export default function CaptureScreen() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer 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`,
+          'Authorization': `Bearer `,
         },
         body: JSON.stringify({
           model: 'mistralai/mistral-small-3.2-24b-instruct:free',
